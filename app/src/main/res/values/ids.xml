@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="id" type="id" />
+    <item name="nom" type="id" />
+    <item name="liste_villes" type="id"/>
+    <item name="etab_type_nom" type="id"/>
+    <item name="etab_adresse" type="id"/>
+    <item name="image_map" type="id"/>
+    <item name="image_tel" type="id"/>
+    <item name="etab_tel" type="id"/>
+    <item name="etab_fax" type="id"/>
+    <item name="etab_mail" type="id"/>
+    <item name="image_mail" type="id"/>
+    <item name="layout_infos_etab" type="id"/>
+    <item name="etab_animateur" type="id"/>
+    <item name="image_animateur_tel" type="id"/>
+    <item name="image_animateur_mail" type="id"/>
+</resources>

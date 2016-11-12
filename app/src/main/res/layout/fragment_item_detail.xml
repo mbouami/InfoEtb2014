@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_marginLeft="16dp"
+android:layout_marginRight="16dp"
+android:baselineAligned="false"
+android:orientation="vertical"
+android:showDividers="middle"
+tools:context="com.bouami.infoetb2014.app.AccueilActivity"
+android:id="@id/layout_infos_etab">
+
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:text="@string/message_indisponibilite"
+    android:id="@id/etab_type_nom"
+    android:layout_gravity="center_horizontal" />
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/message_indisponibilite"
+        android:id="@id/etab_adresse"
+        android:layout_weight="0.98" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@id/image_map"
+        android:src="@android:drawable/ic_menu_mapmode"
+        android:clickable="false"
+        android:contentDescription="@string/message_carte" />
+</LinearLayout>
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/message_indisponibilite"
+        android:id="@id/etab_tel"
+        android:layout_weight="0.32" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@id/image_tel"
+        android:src="@android:drawable/ic_menu_call" />
+</LinearLayout>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:text="@string/message_indisponibilite"
+    android:id="@id/etab_fax" />
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/message_indisponibilite"
+        android:id="@id/etab_mail" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@id/image_mail"
+        android:src="@android:drawable/ic_dialog_email" />
+</LinearLayout>
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:id="@+id/zone_animateur"
+    android:visibility="invisible"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/message_indisponibilite"
+        android:id="@id/etab_animateur" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@id/image_animateur_tel"
+        android:src="@android:drawable/ic_menu_call" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@id/image_animateur_mail"
+        android:src="@android:drawable/ic_dialog_email" />
+</LinearLayout>
+</LinearLayout>

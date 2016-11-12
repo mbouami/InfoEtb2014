@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">InfoEt@b2014</string>
+    <string name="hello_world">Bienvenue!</string>
+    <string name="action_settings">paramètres</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="message_villes">Saisissez une ville</string>
+    <string name="erreurconnection"><![CDATA[la connection à  Internet est Obligatoire pour utiliser cette application.]]></string>
+    <string name="message_indisponibilite">Indisponible</string>
+    <string name="message_carte">carte</string>
+
+</resources>
